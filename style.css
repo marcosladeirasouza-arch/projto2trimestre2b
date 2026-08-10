@@ -1,45 +1,66 @@
-{
-
-    margin: 0;
-    padding: 0;
-
+{margin: 0;
+padding: 0;
 }
 
-.cabecalho{
+.cabecalho {
     padding: 15px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
- }
- .cartao{
+    background-color: gray;
+}
+
+.cartao {
     width: 260px;
     height: 200px;
-
- }
- .cartao-imagem{
-    width: 100%;
- 
 }
-    body{
 
+.cartao-imagem {
+    width: 100%;
+}
+
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: aquamarine;
-    }
-    main{
-flex: 1;
-    }
+    background-color: darkred;
+}
 
-    .cabecalho-link{
-     color: blue; 
-text-decoration: none;
-    }
-    h1{
-        color: aliceblue;
-    }
+main {
+    flex: 1;
+}
 
-    .footer{
-        background-color: blueviolet;
-    }
+.cabecalho-link {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+h1 {
+    color: gold;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: slategrey;
+    padding: 15px 15px;
+    color: goldenrod;
+}
+
+.cartao-interno {
+    position: absolute;
+    border-radius: 12px;
+    /*Arredonda oss cantos*/
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    /*Coloca uma sombra loca em volta do cartão*/
+    backface-visibility: hidden;
+}
+
+.cartao-frente,
+.cartao-verso {
+    position: absolute;
+    border-radius: 12px;
+    /*Arredonda oss cantos*/
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    /*Coloca uma sombra loca em volta do cartão*/
+    backface-visibility: hidden;
+}
