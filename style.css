@@ -51,7 +51,7 @@ h1 {
     border-radius: 12px;
     /*Arredonda oss cantos*/
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-    /*Coloca uma sombra loca em volta do cartão*/
+    /*Coloca uma sombra loca em volta do cartao*/
     backface-visibility: hidden;
 }
 
@@ -61,6 +61,9 @@ h1 {
     border-radius: 12px;
     /*Arredonda oss cantos*/
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-    /*Coloca uma sombra loca em volta do cartão*/
+    /*Coloca uma sombra loca em volta do cartao*/
     backface-visibility: hidden;
+}
+.cartao-verso{
+transform: rotateY(180deg);/*rotaciona o cartao 180 graus no eixo Y*/
 }
