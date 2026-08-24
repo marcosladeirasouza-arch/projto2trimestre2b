@@ -23,7 +23,10 @@
     }
 
     main {
-        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /*flex: 1;*/
     }
 
     .cabecalho-link {
@@ -36,10 +39,11 @@
         font-size: 18px;
     }
 
-    h2{
-        color: aliceblue;
-        font-size: 18px;
+    h2 {
+        color: gold;
+        font-size: 32px;
     }
+
     .footer {
         background-color: slategrey;
         padding: 15px 15px;
@@ -62,19 +66,19 @@
         border-radius: 12px;
         /*Arredonda oss cantos*/
         box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-        /*Coloca uma sombra loca em volta do cartao*/
+        /*Coloca uma sombra loca em volta do cartão*/
         backface-visibility: hidden;
     }
 
     .cartao-verso {
         transform: rotateY(180deg);
-        /*rotaciona o cartao 180 graus no eixo Y*/
+        /*rotaciona o cartão 180 graus no eixo Y*/
     }
 
     .cartao {
         width: 260px;
         height: 200px;
-        margin:10px
+        margin: 10px;
     }
 
     .cartao-imagem {
@@ -89,10 +93,7 @@
     }
 
     main {
-        display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /*flex:1;*/
+        flex: 1;
     }
 
     .cabecalho-link {
@@ -127,11 +128,11 @@
         border-radius: 12px;
         /*Arredonda oss cantos*/
         box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-        /*Coloca uma sombra loca em volta do cartao*/
+        /*Coloca uma sombra loca em volta do cartão*/
         backface-visibility: hidden;
     }
 
     .cartao-verso {
         transform: rotateY(180deg);
-        /*rotaciona o cartao 180 graus no eixo Y*/
+        /*rotaciona o cartão 180 graus no eixo Y*/
     }
